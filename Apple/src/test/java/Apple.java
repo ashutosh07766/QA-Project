@@ -1,4 +1,4 @@
 
-public class Apple {\
-	System.outiuregq 
+public class Apple {
+
 }
