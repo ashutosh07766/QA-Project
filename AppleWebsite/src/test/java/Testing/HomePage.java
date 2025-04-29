@@ -1,4 +1,4 @@
-package classwork;
+package Testing;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class classwork {
+public class HomePage {
 	WebDriver driver;
 
     @BeforeClass
@@ -31,5 +31,4 @@ public class classwork {
     public void closeBrowser() {
         driver.quit();
     }
-
 }
