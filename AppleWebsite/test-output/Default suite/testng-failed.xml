@@ -5,8 +5,8 @@
     <classes>
       <class name="Testing.HomePage">
         <methods>
+          <include name="signup"/>
           <include name="openBrowser"/>
-          <include name="verifyTitle"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- Testing.HomePage -->
