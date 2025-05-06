@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Home {
+public class Action{
 	WebDriver driver;
 	String id;
 	String xpath;
