@@ -125,16 +125,7 @@ public class HomePage {
         
         dropdown.selectByVisibleText("2006");
         
-        
-        
-        
-        
-        
 
-    	
-    	
-    	
-    	
     }
 
     @AfterClass

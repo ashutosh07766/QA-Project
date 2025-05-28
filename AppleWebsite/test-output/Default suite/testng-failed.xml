@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.HomePage">
+      <class name="com.apple.tests.LoginTest">
         <methods>
-          <include name="signup"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="loginToAppleAccount"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Testing.HomePage -->
+      </class> <!-- com.apple.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
