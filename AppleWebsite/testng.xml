@@ -1,0 +1,13 @@
+
+<suite name="Apple Automation Suite">
+    <listeners>
+        <listener class-name="com.apple.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.apple.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
