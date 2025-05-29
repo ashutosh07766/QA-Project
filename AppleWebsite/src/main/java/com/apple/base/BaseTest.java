@@ -52,7 +52,8 @@ public class BaseTest {
         }
     }
 
-    public WebDriver getDriver() {
+    public WebDriver getDriver() throws InterruptedException {
+    	Thread.sleep(10000);
         return driver;
     }
 }

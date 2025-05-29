@@ -20,10 +20,7 @@ public class LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.clickSignInIcon();
         loginPage.login("ashutosh.p24@medhaviskillsuniversity.edu.in", "Ashu@9450");
-    }
-    @Test
-    public void forceFail() {
-        Assert.assertTrue(false, "Intentional Failure");
+        
     }
 
 }

@@ -33,23 +33,24 @@ public class LoginPage {
     }
 
     public void login(String email, String password) throws InterruptedException {
-        // Switch to login iframe
+       
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.id("aid-auth-widget-iFrame")));
 
-        // Accept checkbox
+      
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='form-checkbox-indicator']"))).click();
 
-        // Enter email and click continue
+    
         WebElement emailField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input#account_name_text_field")));
         emailField.sendKeys(email);
 
         driver.findElement(By.xpath("//i[@class='shared-icon icon_sign_in']")).click();
 
-        // Enter password and click sign in
+      
         WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password_text_field")));
         passwordField.sendKeys(password);
 
         Thread.sleep(1000); // optionally replace with wait
         driver.findElement(By.xpath("//i[@class='shared-icon icon_sign_in']")).click();
+        Thread.sleep(30000); 
     }
 }

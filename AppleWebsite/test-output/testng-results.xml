@@ -1,84 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-28T10:11:08 IST" name="Apple Automation Suite" finished-at="2025-05-28T10:12:54 IST" duration-ms="105378">
+  <suite started-at="2025-05-30T02:25:36 IST" name="Apple Automation Suite" finished-at="2025-05-30T02:26:20 IST" duration-ms="43953">
     <groups>
     </groups>
-    <test started-at="2025-05-28T10:11:08 IST" name="Login Tests" finished-at="2025-05-28T10:12:54 IST" duration-ms="105378">
+    <test started-at="2025-05-30T02:25:36 IST" name="Login Tests" finished-at="2025-05-30T02:26:20 IST" duration-ms="43953">
       <class name="com.apple.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:11:08 IST" name="setUp" finished-at="2025-05-28T10:11:12 IST" duration-ms="3325" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:25:36 IST" name="setUp" finished-at="2025-05-30T02:25:40 IST" duration-ms="4064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="forceFail()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:11:12 IST" name="forceFail" finished-at="2025-05-28T10:11:12 IST" duration-ms="10" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional Failure expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional Failure expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.apple.tests.LoginTest.forceFail(LoginTest.java:26)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forceFail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:11:53 IST" name="tearDown" finished-at="2025-05-28T10:11:53 IST" duration-ms="99" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:11:53 IST" name="setUp" finished-at="2025-05-28T10:12:25 IST" duration-ms="31612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:12:25 IST" name="verifyHomePageTitle" finished-at="2025-05-28T10:12:25 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:25:40 IST" name="verifyHomePageTitle" finished-at="2025-05-30T02:25:40 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:12:25 IST" name="tearDown" finished-at="2025-05-28T10:12:25 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:25:40 IST" name="tearDown" finished-at="2025-05-30T02:25:41 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:12:25 IST" name="setUp" finished-at="2025-05-28T10:12:45 IST" duration-ms="20448" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:25:41 IST" name="setUp" finished-at="2025-05-30T02:25:44 IST" duration-ms="3360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAppleAccount()[pri:2, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:12:45 IST" name="loginToAppleAccount" finished-at="2025-05-28T10:12:54 IST" duration-ms="8445" status="PASS">
+        <test-method signature="loginToAppleAccount()[pri:2, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:25:44 IST" name="loginToAppleAccount" finished-at="2025-05-30T02:26:20 IST" duration-ms="36260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAppleAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apple.tests.LoginTest@3e0e1046]" started-at="2025-05-28T10:12:54 IST" name="tearDown" finished-at="2025-05-28T10:12:54 IST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apple.tests.LoginTest@1b66c0fb]" started-at="2025-05-30T02:26:20 IST" name="tearDown" finished-at="2025-05-30T02:26:20 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

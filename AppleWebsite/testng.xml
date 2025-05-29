@@ -1,7 +1,7 @@
 
 <suite name="Apple Automation Suite">
     <listeners>
-        <listener class-name="com.apple.listeners.TestListener"/>
+        <listener class-name="utils.TestListener"/>
     </listeners>
 
     <test name="Login Tests">

@@ -1,6 +1,6 @@
-package com.apple.listeners;
+package utils;
 
-import com.apple.reports.ExtentManager;
+import utils.ExtentManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
